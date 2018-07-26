@@ -1,7 +1,7 @@
 {
   "name": "e-ngx-echarts",
   "version": "5.0.0",
-  "description": "基于Angular的图表组件，依赖第三方插件：echarts",
+  "description": "基于 Angular 的 echarts 图表组件",
   "keywords": [
     "angular",
     "echarts",
