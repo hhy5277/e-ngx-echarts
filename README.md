@@ -13,7 +13,7 @@
 2. Add the ENgxChartModule
 
 	```typescript
-	import { ENgxEChartsModule } from "e-ngx-echarts";
+	import { ENgxEChartsModule } from 'e-ngx-echarts';
 	@NgModule({
 	    imports: [
 	        ENgxEChartsModule
@@ -137,25 +137,25 @@
 
 - `ready` - 初始化完成的事件，$event为当前 ENgxEChartsDirective 实例
 
-- chartClick: 点击事件。参数同 `click` 事件
+- `chartClick`: 点击事件。参数同 `click` 事件
 
-- chartDblClick: 双击事件。参数同 `dblclick` 事件
+- `chartDblClick`: 双击事件。参数同 `dblclick` 事件
 
-- chartMouseDown: 鼠标按下事件。`mousedown` 事件
+- `chartMouseDown`: 鼠标按下事件。`mousedown` 事件
 
-- chartMouseUp: 鼠标松开事件。参数同 `mouseup` 事件
+- `chartMouseUp`: 鼠标松开事件。参数同 `mouseup` 事件
 
-- chartMouseOver: 鼠标移上事件。参数同 `mouseover` 事件
+- `chartMouseOver`: 鼠标移上事件。参数同 `mouseover` 事件
 
-- chartMouseOut: 鼠标移开事件。参数同 `mouseout` 事件
+- `chartMouseOut`: 鼠标移开事件。参数同 `mouseout` 事件
 
-- chartDataZoom: 数据区域缩放后的事件。参数同 `dataZoom` 事件
+- `chartDataZoom`: 数据区域缩放后的事件。参数同 `dataZoom` 事件
 
 更多事件可查看：[http://echarts.baidu.com/api.html#events](http://echarts.baidu.com/api.html#events)
 
 ### Properties
 
-- `echartsIntance`（`any`） - echarts 实例
+- `echartsIntance` - echarts 实例
 
 ### Service
 
