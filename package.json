@@ -1,6 +1,6 @@
 {
   "name": "e-ngx-echarts",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "基于 Angular 的 echarts 图表组件",
   "keywords": [
     "angular",
